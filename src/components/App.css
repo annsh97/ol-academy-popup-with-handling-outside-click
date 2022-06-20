@@ -1,0 +1,51 @@
+.popup {
+  filter: blur(5px);
+  width: 50%;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #d1a141db;
+  box-shadow: 2px 2px 30px rgba(186, 26, 26, 0.2);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 15px;
+}
+.open-btn {
+  background-color: rgb(229, 95, 33);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: small;
+}
+.popup-box {
+  width: 50%;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(42, 142, 142, 0.859);
+  box-shadow: 2px 2px 30px rgba(88, 34, 34, 0.908);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 50px;
+}
+.close-btn {
+  background-color: rgb(229, 95, 33);
+  padding: 5px;
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 80%;
+}
+
+.text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+p {
+  text-align: start;
+  font-size: larger;
+}
